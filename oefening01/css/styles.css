@@ -1,0 +1,15 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:wheat;
+    color:white;
+}
+h1{
+    font-size: 2em;
+    color:red;
+}
+h2{
+    color:black;
+}
+h3{
+    color:tomato;
+}
