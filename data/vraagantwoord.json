@@ -1,0 +1,32 @@
+[
+  {
+    "Vraag": "What is encoding?",
+    "Antwoord": "The process of converting information into another acceptable form for transmission.",
+    "Image": "nextcloud.png"
+  },
+  {
+    "Vraag": "Common computer protocols must be in agreement and include which requirements?",
+    "Antwoord": "Message encoding, formating and encapsulation, size, timing, delivery options",
+    "Image": null
+  },
+  {
+    "Vraag": "What is a network protocol suite",
+    "Antwoord": "A group of inter-related protocols necessary to perform a communication function, sets of rules that work together to help solve a problem,",
+    "Image": null
+  },
+  {
+    "Vraag": "What does the OSI abbreviation stand for?",
+    "Antwoord": "Open Systems Interconnection",
+    "Image": null
+  },
+  {
+    "Vraag": "Who maintains TCP/IP",
+    "Antwoord": "Internet Engineering Task Force (IETF)",
+    "Image": null
+  },
+  {
+    "Vraag": "What are the TCP/IP Layers",
+    "Antwoord": "(Top to bottom) Application, Transport, Internet, Network Access",
+    "Image": null
+  }
+]
