@@ -33,7 +33,7 @@
     "Vraag": "What are the TCP/IP Layers",
     "Antwoord": "(Top to bottom) Application, Transport, Internet, Network Access",
     "ImageQuestion": null,
-    "ImageAnswer": "layers_tcp_ip_osi.png"
+    "ImageAnswer": "layers_tcp_osi.png"
   },
   {
     "Vraag": "Gegeven: Wat betekent L op de foto?",
