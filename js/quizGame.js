@@ -66,8 +66,6 @@ class QuizGame {
       const img = document.createElement("img");
       img.src = "./images/" + this.#currentQuestion.imgUrl;
       img.id = "img";
-      img.width = "300";
-      img.height = "300";
       img.className = "mb-5";
       document.getElementById("afb-parent").appendChild(img);
     }

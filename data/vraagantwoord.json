@@ -2,7 +2,7 @@
   {
     "Vraag": "What is encoding?",
     "Antwoord": "The process of converting information into another acceptable form for transmission.",
-    "Image": "Nextcloud.png"
+    "Image": null
   },
   {
     "Vraag": "Common computer protocols must be in agreement and include which requirements?",
@@ -28,5 +28,15 @@
     "Vraag": "What are the TCP/IP Layers",
     "Antwoord": "(Top to bottom) Application, Transport, Internet, Network Access",
     "Image": null
+  },
+  {
+    "Vraag": "Wat betekent L op de foto?",
+    "Antwoord": "Directly connected local interface IP address.",
+    "Image": "ip_route_vb.png"
+  },
+  {
+    "Vraag": "Wat betekent S* op de foto?",
+    "Antwoord": "S = Static route, * = Candidate default",
+    "Image": "ip_route_vb.png"
   }
 ]
