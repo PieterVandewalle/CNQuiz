@@ -18,9 +18,8 @@ class QuizGame {
     this.questionToHtml(this.#currentQuestion);
   }
   addQuestions(dataObjects) {
-    console.log(dataObjects);
     this.#questions = dataObjects.map(
-      (q) => new Question(q.Vraag, q.Antwoord, q.Image)
+      (q) => new Question(q.Vraag, q.Antwoord, q.ImageQuestion, q.ImageAnswer)
     );
   }
 
@@ -42,7 +41,6 @@ class QuizGame {
       document.getElementById("question").innerText =
         "No more questions... come back later";
       document.getElementById("show").setAttribute("disabled", true);
-      document.getElementById("next").setAttribute("disabled", true);
     } else {
       this.#currentQuestion =
         this.#questions[this.#questions.indexOf(this.#currentQuestion) + 1];
@@ -53,37 +51,55 @@ class QuizGame {
   clearHtml() {
     document.getElementById("question").innerText = "";
     document.getElementById("answer").innerText = "";
-    const img = document.getElementById("img");
-    if (img) {
-      document.getElementById("afb-parent").removeChild(img);
+    const imgQ = document.getElementById("img-q");
+    if (imgQ) {
+      document.getElementById("div-img-question").removeChild(imgQ);
+    }
+    const imgA = document.getElementById("img-a");
+    if (imgA) {
+      document.getElementById("div-img-answer").removeChild(imgA);
     }
   }
 
   questionToHtml() {
     document.getElementById("question").innerText =
       "Q: " + this.#currentQuestion.question;
-    if (this.#currentQuestion.imgUrl) {
+    if (this.#currentQuestion.imgQuestion) {
       const img = document.createElement("img");
-      img.src = "./images/" + this.#currentQuestion.imgUrl;
-      img.id = "img";
+      img.src = "./images/" + this.#currentQuestion.imgQuestion;
+      img.id = "img-q";
       img.className = "mb-5";
-      document.getElementById("afb-parent").appendChild(img);
+      document.getElementById("div-img-question").appendChild(img);
     }
   }
 
-  showAnswer(q) {
+  showAnswer() {
     document.getElementById("answer").innerText =
       "A: " + this.#currentQuestion.answer;
+    if (this.#currentQuestion.imgAnswer) {
+      const img = document.createElement("img");
+      img.src = "./images/" + this.#currentQuestion.imgAnswer;
+      img.id = "img-a";
+      img.className = "mt-5";
+      document.getElementById("div-img-answer").appendChild(img);
+    }
   }
-  get currentQuestion() {
-    return this.#currentQuestion;
+
+  get answerIsVisible() {
+    return document.getElementById("answer").innerText !== "";
   }
 }
 
 function init() {
   const game = new QuizGame();
-  document.getElementById("show").onclick = () => game.showAnswer();
-  document.getElementById("next").onclick = () => game.nextQuestion();
+  document.getElementById("show").onclick = () => {
+    if (game.answerIsVisible) {
+      game.nextQuestion();
+      document.getElementById("show").innerText = "Show Answer";
+    } else {
+      game.showAnswer();
+      document.getElementById("show").innerText = "Next Question";
+    }
+  };
 }
-
 window.onload = init;

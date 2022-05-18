@@ -1,7 +1,15 @@
 export class Question {
   #question;
   #answer;
-  #imgUrl;
+  #imgQuestion;
+  #imgAnswer;
+
+  constructor(question, answer, imgQuestion, imgAnswer) {
+    this.#question = question;
+    this.#answer = answer;
+    this.#imgQuestion = imgQuestion;
+    this.#imgAnswer = imgAnswer;
+  }
 
   get question() {
     return this.#question;
@@ -11,13 +19,11 @@ export class Question {
     return this.#answer;
   }
 
-  get imgUrl() {
-    return this.#imgUrl;
+  get imgQuestion() {
+    return this.#imgQuestion;
   }
 
-  constructor(question, answer, imgUrl) {
-    this.#question = question;
-    this.#answer = answer;
-    this.#imgUrl = imgUrl;
+  get imgAnswer() {
+    return this.#imgAnswer;
   }
 }

@@ -2,41 +2,49 @@
   {
     "Vraag": "What is encoding?",
     "Antwoord": "The process of converting information into another acceptable form for transmission.",
-    "Image": null
+    "ImageQuestion": null,
+    "ImageAnswer": null
   },
   {
     "Vraag": "Common computer protocols must be in agreement and include which requirements?",
     "Antwoord": "Message encoding, formating and encapsulation, size, timing, delivery options",
-    "Image": null
+    "ImageQuestion": null,
+    "ImageAnswer": null
   },
   {
     "Vraag": "What is a network protocol suite",
     "Antwoord": "A group of inter-related protocols necessary to perform a communication function, sets of rules that work together to help solve a problem,",
-    "Image": null
+    "ImageQuestion": null,
+    "ImageAnswer": null
   },
   {
     "Vraag": "What does the OSI abbreviation stand for?",
     "Antwoord": "Open Systems Interconnection",
-    "Image": null
+    "ImageQuestion": null,
+    "ImageAnswer": null
   },
   {
     "Vraag": "Who maintains TCP/IP",
     "Antwoord": "Internet Engineering Task Force (IETF)",
-    "Image": null
+    "ImageQuestion": null,
+    "ImageAnswer": null
   },
   {
     "Vraag": "What are the TCP/IP Layers",
     "Antwoord": "(Top to bottom) Application, Transport, Internet, Network Access",
-    "Image": null
+    "ImageQuestion": null,
+    "ImageAnswer": "layers_tcp_ip_osi.png"
   },
   {
-    "Vraag": "Wat betekent L op de foto?",
+    "Vraag": "Gegeven: Wat betekent L op de foto?",
     "Antwoord": "Directly connected local interface IP address.",
-    "Image": "ip_route_vb.png"
+    "ImageQuestion": "ip_route_vb.png",
+    "ImageAnswer": "ip_route_vb.png"
   },
   {
-    "Vraag": "Wat betekent S* op de foto?",
-    "Antwoord": "S = Static route, * = Candidate default",
-    "Image": "ip_route_vb.png"
+    "Vraag": "Gegeven: Wat betekent S op de foto?",
+    "Antwoord": "S = Static route, * = Candidate default\"",
+    "ImageQuestion": "ip_route_vb.png",
+    "ImageAnswer": null
   }
 ]
