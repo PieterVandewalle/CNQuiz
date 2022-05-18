@@ -36,15 +36,75 @@
     "ImageAnswer": "layers_tcp_osi.png"
   },
   {
-    "Vraag": "Gegeven: Wat betekent L op de foto?",
+    "Vraag": "Wat betekent L op de foto?",
     "Antwoord": "Directly connected local interface IP address.",
     "ImageQuestion": "ip_route_vb.png",
-    "ImageAnswer": "ip_route_vb.png"
+    "ImageAnswer": null
   },
   {
-    "Vraag": "Gegeven: Wat betekent S op de foto?",
+    "Vraag": "Wat betekent S op de foto?",
     "Antwoord": "S = Static route, * = Candidate default\"",
     "ImageQuestion": "ip_route_vb.png",
     "ImageAnswer": null
+  },
+  {
+    "Vraag": "Geef het transportprotocol en poortnummer(s) van FTP.",
+    "Antwoord": "Protocol: TCP. 20 - Data, 21 - Control",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Vraag": "Geef het transportprotocol en poortnummer(s) van SMTP.",
+    "Antwoord": "Protocol: TCP. Poort: 25",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Vraag": "Geef het transportprotocol en poortnummer(s) van DHCP.",
+    "Antwoord": "Protocol: UDP. 67 - Server, 68 - Client",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Vraag": "Geef het transportprotocol en poortnummer(s) van IMAP.",
+    "Antwoord": "Protocol: TCP. Poort: 143",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Vraag": "Geef het transportprotocol en poortnummer(s) van POP3.",
+    "Antwoord": "Protocol: TCP. Poort: 110",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Vraag": "Waarvoor staat de afkorting URL?",
+    "Antwoord": "Uniform Resource Locator",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Vraag": "Wat is de numbert range van well-known ports?",
+    "Antwoord": "0 - 1023",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Vraag": "Waarvoor staan onderstaande velden van de TCP header?",
+    "Antwoord": "Zie onderstaande foto:",
+    "ImageQuestion": "tcp_header.png",
+    "ImageAnswer": "uitleg_tcp_header.png"
+  },
+  {
+    "Vraag": "Hoe is het Link-local IPv6 Address: fe80::fc99:47ff:fe75:cee0 gegenereerd?",
+    "Antwoord": "A.d.h.v. EUI-64",
+    "ImageQuestion": null,
+    "ImageAnswer": "eui-64.png"
+  },
+  {
+    "Vraag": "Wat zijn de verschillen tussen Single-Mode Fiber en Multimode Fiber",
+    "Antwoord": "Zie onderstaande foto:",
+    "ImageQuestion": null,
+    "ImageAnswer": "fiber.png"
   }
 ]
