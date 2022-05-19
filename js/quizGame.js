@@ -19,7 +19,14 @@ class QuizGame {
   }
   addQuestions(dataObjects) {
     this.#questions = dataObjects.map(
-      (q) => new Question(q.Vraag, q.Antwoord, q.ImageQuestion, q.ImageAnswer)
+      (q) =>
+        new Question(
+          q.Categorie,
+          q.Vraag,
+          q.Antwoord,
+          q.ImageQuestion,
+          q.ImageAnswer
+        )
     );
   }
 
@@ -34,17 +41,21 @@ class QuizGame {
 
   nextQuestion() {
     this.clearHtml();
-    if (
-      this.#questions.indexOf(this.#currentQuestion) ===
-      this.#questions.length - 1
-    ) {
+    if (this.noMoreQuestions) {
       document.getElementById("question").innerText =
         "No more questions... come back later";
       document.getElementById("show").setAttribute("disabled", true);
     } else {
       this.#currentQuestion =
         this.#questions[this.#questions.indexOf(this.#currentQuestion) + 1];
-      this.questionToHtml(this.#currentQuestion);
+      if (
+        document.getElementById("flexSwitchCheckDefault").checked === false &&
+        this.#currentQuestion.category === "commands"
+      ) {
+        this.nextQuestion();
+      } else {
+        this.questionToHtml(this.#currentQuestion);
+      }
     }
   }
 
@@ -84,7 +95,12 @@ class QuizGame {
       document.getElementById("div-img-answer").appendChild(img);
     }
   }
-
+  get noMoreQuestions() {
+    return (
+      this.#questions.indexOf(this.#currentQuestion) ===
+      this.#questions.length - 1
+    );
+  }
   get answerIsVisible() {
     return document.getElementById("answer").innerText !== "";
   }

@@ -1,110 +1,289 @@
 [
   {
+    "Categorie": "theorie",
     "Vraag": "What is encoding?",
     "Antwoord": "The process of converting information into another acceptable form for transmission.",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Common computer protocols must be in agreement and include which requirements?",
     "Antwoord": "Message encoding, formating and encapsulation, size, timing, delivery options",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "What is a network protocol suite",
     "Antwoord": "A group of inter-related protocols necessary to perform a communication function, sets of rules that work together to help solve a problem,",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "What does the OSI abbreviation stand for?",
     "Antwoord": "Open Systems Interconnection",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Who maintains TCP/IP",
     "Antwoord": "Internet Engineering Task Force (IETF)",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "What are the TCP/IP Layers",
     "Antwoord": "(Top to bottom) Application, Transport, Internet, Network Access",
     "ImageQuestion": null,
     "ImageAnswer": "layers_tcp_osi.png"
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Wat betekent L op de foto?",
     "Antwoord": "Directly connected local interface IP address.",
     "ImageQuestion": "ip_route_vb.png",
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Wat betekent S op de foto?",
     "Antwoord": "S = Static route, * = Candidate default\"",
     "ImageQuestion": "ip_route_vb.png",
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Geef het transportprotocol en poortnummer(s) van FTP.",
     "Antwoord": "Protocol: TCP. 20 - Data, 21 - Control",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Geef het transportprotocol en poortnummer(s) van SMTP.",
     "Antwoord": "Protocol: TCP. Poort: 25",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Geef het transportprotocol en poortnummer(s) van DHCP.",
     "Antwoord": "Protocol: UDP. 67 - Server, 68 - Client",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Geef het transportprotocol en poortnummer(s) van IMAP.",
     "Antwoord": "Protocol: TCP. Poort: 143",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Geef het transportprotocol en poortnummer(s) van POP3.",
     "Antwoord": "Protocol: TCP. Poort: 110",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Waarvoor staat de afkorting URL?",
     "Antwoord": "Uniform Resource Locator",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
-    "Vraag": "Wat is de numbert range van well-known ports?",
+    "Categorie": "theorie",
+    "Vraag": "Wat is de number range van well-known ports?",
     "Antwoord": "0 - 1023",
     "ImageQuestion": null,
     "ImageAnswer": null
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Waarvoor staan onderstaande velden van de TCP header?",
     "Antwoord": "Zie onderstaande foto:",
     "ImageQuestion": "tcp_header.png",
     "ImageAnswer": "uitleg_tcp_header.png"
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Hoe is het Link-local IPv6 Address: fe80::fc99:47ff:fe75:cee0 gegenereerd?",
     "Antwoord": "A.d.h.v. EUI-64",
     "ImageQuestion": null,
     "ImageAnswer": "eui-64.png"
   },
   {
+    "Categorie": "theorie",
     "Vraag": "Wat zijn de verschillen tussen Single-Mode Fiber en Multimode Fiber",
     "Antwoord": "Zie onderstaande foto:",
     "ImageQuestion": null,
     "ImageAnswer": "fiber.png"
+  },
+  {
+    "Categorie": "theorie",
+    "Vraag": "What are the advantages and disadvantages of a Peer-to-Peer network",
+    "Antwoord": "Advantages: easy to set up, less complex, lower cost. Disadvantages: no centralized administration, not as secure, not scalable, slower performance.",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "theorie",
+    "Vraag": "What is an example of an Intermediary Network Device?",
+    "Antwoord": "Examples include switches, wireless access points, routers, and firewalls.",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "theorie",
+    "Vraag": "Wat is de term voor onderstaande diagram?",
+    "Antwoord": "Physical Topology Diagram",
+    "ImageQuestion": "physical_topology.png",
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "theorie",
+    "Vraag": "Wat is de term voor onderstaande diagram?",
+    "Antwoord": "Logical Topology Diagram",
+    "ImageQuestion": "logical_topology.png",
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "theorie",
+    "Vraag": "Welk type netwerk ontbreekt er op de plaats van de vraagtekens?",
+    "Antwoord": "Geel: Local Area Network (LAN) | Roze: Wide Area Network (WAN)",
+    "ImageQuestion": "lan_wan.png",
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "theorie",
+    "Vraag": "Wat zijn de eigenschappen van een Converged data network?",
+    "Antwoord": "Converged networks can deliver data, voice, and video over the same network infrastructure. The network infrastructure uses the same set of rules and standards.",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "theorie",
+    "Vraag": "What are four basic characteristics that Network Architectures need to address to meet user expectations?",
+    "Antwoord": "Fault Tolerance, Scalability, Quality of Service, Security",
+    "ImageQuestion": null,
+    "ImageAnswer": "netw_architecture.png"
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "In what primary command mode is the switch with following prompt: Switch>",
+    "Antwoord": "User EXEC Mode",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "In what primary command mode is the switch with following prompt: Switch#",
+    "Antwoord": "Privileged EXEC Mode",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "In what primary command mode is the switch with following prompt: Switch (config) #",
+    "Antwoord": "Global Configuration Mode",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "In what primary command mode is the switch with following prompt: Switch (config-line) #",
+    "Antwoord": "Line Configuration Mode",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What is Line Configuration Mode used for?",
+    "Antwoord": "Used to configure console and SSH.",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "In what primary command mode is the switch with following prompt: Switch (config-if) #",
+    "Antwoord": "Interface Configuration Mode",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What command is used to move from user EXEC mode to privilege EXEC mode?",
+    "Antwoord": "enable",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What command is used to move into global configuration mode?",
+    "Antwoord": "configure terminal (conf t)",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to configure the name of a device?",
+    "Antwoord": "Zie onderstaande foto:",
+    "ImageQuestion": null,
+    "ImageAnswer": "command_hostname.png"
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to secure user EXEC mode access?",
+    "Antwoord": "Zie onderstaande foto:",
+    "ImageQuestion": null,
+    "ImageAnswer": "command_userexecpwd.png"
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to secure privileged EXEC mode access?",
+    "Antwoord": "Zie onderstaande foto:",
+    "ImageQuestion": null,
+    "ImageAnswer": "command_privexecpwd.png"
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to secure VTY line access?",
+    "Antwoord": "Zie onderstaande foto:",
+    "ImageQuestion": null,
+    "ImageAnswer": "command_vtylinepwd.png"
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to encrypt all plaintext passwords?",
+    "Antwoord": "Zie onderstaande foto:",
+    "ImageQuestion": null,
+    "ImageAnswer": "command_encrypt.png"
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to verify that the passwords on the device are encrypted?",
+    "Antwoord": "show running-config",
+    "ImageQuestion": null,
+    "ImageAnswer": null
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to create a banner message of the day on a network device?",
+    "Antwoord": "banner motd #the message of the day# (global config command)",
+    "ImageQuestion": null,
+    "ImageAnswer": "command_banner.png"
+  },
+  {
+    "Categorie": "commands",
+    "Vraag": "What commands are used to save changes made to the running configuration to the startup configuration file?",
+    "Antwoord": "copy running-config startup-config (privileged EXEC mode command)",
+    "ImageQuestion": null,
+    "ImageAnswer": null
   }
 ]
